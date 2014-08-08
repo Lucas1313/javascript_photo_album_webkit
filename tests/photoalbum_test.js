@@ -1,4 +1,4 @@
-describe('photoalbum_test',function(){
+    describe('photoalbum_test',function(){
 	it('currentIcon should default to icon_0', function(){
 		console.log('test');
 		expect(mySweetGallery.currentIcon).toBe('icon_0');
