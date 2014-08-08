@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>World Travels</title>
+	<meta name="application-name" content="Travel memory and images">
+	<meta name="description" content="Just showing some images to my people">	
+	<link href="css/global.css" rel="stylesheet" type="text/css" />	
+	<link href="./jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine.css" rel="stylesheet" type="text/css" />
+	<script  src="./jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine.js" ></script>
+	<script  src="./jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine-html.js"  ></script>	
+	<script  src="./tests/photoalbum_test.js"></script>
+	<script  src="./scripts/galleryData.js"></script>
+	<script  src="./scripts/SweetAlbum.js"></script>
+	<script  src="./scripts/global.js" ></script>
+	
+	
+	
+</head>
+<body>
+	<header>
+		<nav id="navigation" class="navigation full-width">
+			<div id="menu" class="menu">
+				
+					<div id="home-button" class="menu-item" page="home"><a href="#home">HOME</a></div>
+				
+					<div  id="port-folio-button" class="menu-item selected" page="portfolio"><a href="#portfolio">PORTFOLIO</a></div>
+				
+					<div id="about-button" class="menu-item" page="about"><a href="#about">ABOUT</a></div>
+				
+			</div>
+		</nav>
+	</header>
+	
+	<section id="gallery1" class="full-width gallery">
+		<div id="gallery-title-wrapper" class="gallery-title-wrapper full-width">
+			<div id="gallery-title" class="gallery-title">GALLERY TITLE HERE</div>
+		</div>	
+		<div id="gallery-photo-wrapper" class="gallery-photo-wrapper full-width">
+			
+			<div id="gallery-arrow-left" class="gallery-arrow-left gallery-arrow"></div>
+			
+			<div id="gallery-image-main" class="gallery-image-main">
+				
+				
+				<div id="gallery-image-wrapper" class="gallery-image-wrapper">
+					<img id="gallery-image1" class="gallery-image" src=""></img>
+					<img id="gallery-image2" class="gallery-image" src=""></img>
+				</div>
+				<div id="gallery-caption-bkg" class="gallery-caption-bkg hidden"></div>
+				<div id="gallery-caption" class="gallery-caption hidden">
+					<div id="caption-title" class="caption-title">Skyline</div>			
+					<!-- Note the tag time is not yet supported but it will be soon -->
+					<time id="caption-time" class="caption-time">October 13 1961</time>
+					<div id="caption-text" class="caption-text">Great Ladscape</div>
+				</div>
+			</div>
+			
+			<div id="gallery-arrow-right" class="gallery-arrow-right gallery-arrow"></div>
+		</div>
+		<div id="gallery-thumbs" class="gallery-thumbs full-width"></div>
+</section>
+
+<footer id="footer" class="footer full-width">copyright &copy; SolutionSet 2011</footer>
+<script type="text/javascript">
+/*
+setTimeout(function(){
+			var test = 'icon_0';
+			  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+			  jasmine.getEnv().execute();
+	}, 1000);*/
+</script>
+</body>

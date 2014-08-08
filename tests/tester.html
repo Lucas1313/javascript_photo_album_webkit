@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link href="../css/global.css" rel="stylesheet" type="text/css" />	
+	<link href="../jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine.css" rel="stylesheet" type="text/css" />
+	<script  src="../jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine.js" ></script>
+	<script  src="../jasmine-standalone-1.0.2/lib/jasmine-1.0.2/jasmine-html.js"  ></script>
+	
+	<script  src="../scripts/galleryData.js"></script>
+	<script  src="../scripts/global.js" ></script>
+	<script  src="../scripts/sweetgallery.js"></script>
+	<script  src="../tests/photoalbum_test.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().execute();
+</script>
+
+</body>
+</html>
